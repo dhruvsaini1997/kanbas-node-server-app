@@ -37,7 +37,7 @@ const app = express();
 app.use(
     cors({
       credentials: true,
-      origin:'https://deploy-preview-13--mellow-ganache-243aec.netlify.app'
+      origin:'https://mellow-ganache-243aec.netlify.app'
     })
   );
   
